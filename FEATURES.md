@@ -15,7 +15,7 @@ Legend: ✅ implemented • 🔄 in progress / designed • 🧭 planned / roadm
 | AI | Conversational device control | ✅ | Intent normalization → orchestration layer |
 | AI | Knowledge embeddings (docs) | ✅ | Vector context build per query (usedChunks provenance) |
 | Cameras | RTSP → low‑latency HLS streaming | ✅ | FFmpeg managed process, 2s segments, cleanup strategy |
-| Cameras | Multi camera overview | ✅ | Grid / placeholder states |
+| Cameras | Multi camera overview | ✅ | Responsive grid with graceful empty / loading states |
 | Auth | Email/password auth | ✅ | JWT issuance, refresh ready |
 | Auth | Password reset flow | ✅ | Token validation + staged UX |
 | Security | Resource/Action authorization (deny‑by‑default) | ✅ | Missing metadata ⇒ 403 enforcement |

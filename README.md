@@ -346,7 +346,6 @@ Outcome: Lower cognitive load for reviewers, safer extension surface, easier roo
 Want a deeper walkthrough (architecture Q&A, security rationale, AI + automation live flow)? Reach out:
 
 - LinkedIn: https://www.linkedin.com/in/patryk-czechowski-4600a91ba
-- Email: demo.request (at) example.com (replace (at) with @)
 - Optional: Add brief context (team size, interest focus: AI / Automation / Security / Streaming) so I can tailor the session.
 
 Format & SLA:
@@ -371,7 +370,7 @@ Unified Smart Home platform delivering explainable automation, conversational AI
 ## Table of Contents
 1. ✨ Overview & Problem Statement
 2. 🚀 Key Capabilities
-3. � Architecture Summary
+3. 🏗 Architecture Summary
 4. 🤖 AI & Automation Engine
 5. 🔐 Security & Observability
 6. 🖼 Screenshots & Interactive Demos
