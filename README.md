@@ -345,7 +345,7 @@ Outcome: Lower cognitive load for reviewers, safer extension surface, easier roo
 ## 16. Request a Private Demo (CTA)
 Want a deeper walkthrough (architecture Q&A, security rationale, AI + automation live flow)? Reach out:
 
-- LinkedIn: https://www.linkedin.com/in/ (placeholder – shared on request)
+- LinkedIn: https://www.linkedin.com/in/patryk-czechowski-4600a91ba
 - Email: demo.request (at) example.com (replace (at) with @)
 - Optional: Add brief context (team size, interest focus: AI / Automation / Security / Streaming) so I can tailor the session.
 
