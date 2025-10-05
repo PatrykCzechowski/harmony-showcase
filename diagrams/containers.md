@@ -8,7 +8,7 @@ flowchart TB
         A1["Angular SPA<br/>SSR bootstrap"]
     end
 
-    subgraph Backend[".NET 8 Harmony API"]
+    subgraph Backend[".NET 10 Harmony API"]
         B1["API Gateway<br/>Controllers"]
         B2["Auth & Security<br/>Middleware"]
         B3["Device Orchestrator"]

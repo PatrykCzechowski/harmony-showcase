@@ -14,7 +14,7 @@ Smart‑home consolidation: one platform for devices, deterministic (predictable
 
 ## 3. Architecture Bird's Eye
 - Frontend: Angular SSR + Tailwind feature domains (devices, rules, cameras, ai, auth).
-- Backend: .NET 8 modular services, automation worker, AI orchestration layer, FFmpeg manager.
+- Backend: .NET 10 modular services, automation worker, AI orchestration layer, FFmpeg manager.
 - Cross‑cutting: Structured logging, provenance, timeline, encrypted MFA secrets.
 
 Diagrams:

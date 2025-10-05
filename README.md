@@ -20,7 +20,7 @@ Intelligent, modular Smart Home platform unifying IoT devices, rule automations 
 
 ---
 
-![Stack](https://img.shields.io/badge/Angular-SSR-orange?style=flat)&nbsp;![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet?style=flat)&nbsp;![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=flat)&nbsp;![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Utility%20First-38bdf8?style=flat)&nbsp;![FFmpeg](https://img.shields.io/badge/Streaming-FFmpeg-green?style=flat)&nbsp;![AI](https://img.shields.io/badge/AI-Conversational%20Layer-purple?style=flat)
+![Stack](https://img.shields.io/badge/Angular-SSR-orange?style=flat)&nbsp;![.NET](https://img.shields.io/badge/.NET-10.0-blueviolet?style=flat)&nbsp;![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=flat)&nbsp;![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Utility%20First-38bdf8?style=flat)&nbsp;![FFmpeg](https://img.shields.io/badge/Streaming-FFmpeg-green?style=flat)&nbsp;![AI](https://img.shields.io/badge/AI-Conversational%20Layer-purple?style=flat)
 
 ![Security](https://img.shields.io/badge/Security-First-critical?style=flat)&nbsp;![Automation](https://img.shields.io/badge/Automation-Deterministic-blue?style=flat)&nbsp;![Streaming](https://img.shields.io/badge/Latency-Low%20(2s%20HLS)-green?style=flat)&nbsp;![Explainability](https://img.shields.io/badge/AI-Explainable-informational?style=flat)
 
@@ -63,7 +63,7 @@ Unified Smart Home platform consolidating fragmented IoT ecosystems into one sec
 ## 3. Architecture Overview
 **Frontend (Angular SSR + Tailwind):** Standalone feature domains (`devices`, `cameras`, `rules`, `integrations`, `ai`, `auth`). Reusable UI primitives keep styling consistent; interceptors centralize base URL, auth, XSRF.
 
-**Backend (.NET 8):** Modular service composition; controllers thin → orchestrators / services; deterministic background worker (automation); AI chat & embedding layer; FFmpeg streaming manager.
+**Backend (.NET 10):** Modular service composition; controllers thin → orchestrators / services; deterministic background worker (automation); AI chat & embedding layer; FFmpeg streaming manager.
 
 **Security:** Explicit Resource/Action attributes enforced centrally; JWT + future MFA (TOTP implemented, WebAuthn planned). Rate limiting for AI endpoints.
 
@@ -425,7 +425,7 @@ Illustrative coverage report excerpt (private source repository). Demonstrates c
 | Layer | Technologies |
 |-------|-------------|
 | Frontend | Angular (SSR), TypeScript, Tailwind, RxJS |
-| Backend | .NET 8, ASP.NET Core, Serilog |
+| Backend | .NET 10, ASP.NET Core, Serilog |
 | AI | HarmonyAI.SDK (embeddings + chat orchestration) |
 | Streaming | FFmpeg (RTSP → HLS short segments) |
 | Security | JWT, deny‑by‑default authorization middleware, MFA-ready concepts |

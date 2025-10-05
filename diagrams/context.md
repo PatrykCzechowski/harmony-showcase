@@ -6,7 +6,7 @@ High-level external view of Harmony Platform.
 flowchart LR
     User([End User<br/>Resident]) --> UI["Web App<br/>(Angular SSR + PWA)"]
     Admin([Admin<br/>Power User]) --> UI
-    UI --> API["Harmony API<br/>(.NET 8)"]
+    UI --> API["Harmony API<br/>(.NET 10)"]
     API --> Auth[("Identity & Auth")]
     API --> Automation["Automation Engine"]
     API --> AI["AI Layer<br/>Embeddings"]
