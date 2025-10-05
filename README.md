@@ -450,10 +450,46 @@ Key decisions:
 ---
 
 ## 11. 📂 Repository Content
-| Path | Description |
-|------|-------------|
-| `README.md` | This bilingual showcase overview |
-| `images/` | UI screenshots |
+High‑signal curated files & folders (source code itself is private; snippets & docs illustrate architecture, security, AI & automation design decisions).
+
+| Path | Type | Purpose / Notes |
+|------|------|-----------------|
+| `README.md` | Doc | Primary showcase narrative (problem → architecture → evidence) |
+| `FEATURES.md` | Doc | Detailed functional & technical capability matrix |
+| `CONTRAST.md` | Doc | Differentiators vs typical OSS smart‑home stacks |
+| `ACCESSIBILITY.md` | Doc | Accessibility & contrast considerations |
+| `PERFORMANCE.md` | Doc | Performance targets & rationale (latency, streaming) |
+| `THREATMODEL.md` | Doc | Lightweight STRIDE-style threat considerations |
+| `QUICKSTART.md` | Doc | (Showcase) orientation & navigation guide |
+| `DIAGRAMS_INDEX.md` | Doc | Index of C4 + sequence diagrams |
+| `diagrams/` | Folder | C4 (context, containers, components) + sequence diagrams |
+| `diagrams/context.md` | Diagram | External actors & system boundary |
+| `diagrams/containers.md` | Diagram | Frontend vs backend deployment & services |
+| `diagrams/components-backend.md` | Diagram | Service/module responsibilities (.NET) |
+| `diagrams/components-frontend.md` | Diagram | Angular feature domain layout |
+| `diagrams/sequence-automation.md` | Diagram | Rule evaluation & execution path |
+| `diagrams/sequence-ai-command.md` | Diagram | Conversational intent → action orchestration |
+| `code-snippets/` | Folder | Curated illustrative backend excerpts |
+| `code-snippets/automation/` | Folder | Scheduler loop & rule engine logic |
+| `code-snippets/security/` | Folder | AuthZ middleware, TOTP encryption, rate limiting |
+| `code-snippets/ai/` | Folder | Intent normalization logic |
+| `code-snippets/streaming/` | Folder | FFmpeg startup & streaming wrapper |
+| `code-snippets/integrations/` | Folder | Integration adapter patterns (scaffold) |
+| `gifs/` | Media | Interactive demonstration animations (UI + real hardware) |
+| `gifs/fibaro-device-control.gif` | Demo | RGBW UI device control |
+| `gifs/home-assistant-dashboard.gif` | Demo | Home Assistant entity control |
+| `gifs/harmony-ai-interaction.gif` | Demo | Conversational AI orchestration |
+| `gifs/camera-live-view.gif` | Demo | Low‑latency streaming proof |
+| `gifs/automation-rule-creation.gif` | Demo | Rule creation workflow |
+| `gifs/gate-control-ui.gif` | Demo | Garage gate UI toggle |
+| `gifs/gate-opening-irl.gif` | Demo | Physical garage gate actuation |
+| `gifs/fibaro-rgbw-irl.gif` | Demo | Real RGBW strip reacting to command |
+| `images/` | Media | Static UI screenshots (gallery) |
+| `images/app-dashboard.png` | Image | Unified system dashboard |
+| `images/harmony-ai-chat-window.png` | Image | AI chat interface |
+| `images/rules-list.png` | Image | Rules management overview |
+| `images/system-history-timeline.png` | Image | System timeline (observability) |
+| (more in `images/…`) | Image | Additional flows & forms |
 
 ---
 
