@@ -5,26 +5,26 @@ Logical containers composing the Harmony Platform.
 ```mermaid
 flowchart TB
     subgraph Browser
-        A1[Angular SPA + SSR bootstrap]
+        A1["Angular SPA<br/>SSR bootstrap"]
     end
 
-    subgraph Backend[.NET 8 Harmony API]
-        B1[API Gateway / Controllers]
-        B2[Auth & Security Middleware]
-        B3[Device Orchestrator]
-        B4[Automation Engine (Hosted Service)]
-        B5[AI Layer / Embedding & Chat]
-        B6[Streaming Service (FFmpeg Manager)]
-        B7[Integration Adapters]
-        B8[Persistence (Repositories + UoW)]
+    subgraph Backend[".NET 8 Harmony API"]
+        B1["API Gateway<br/>Controllers"]
+        B2["Auth & Security<br/>Middleware"]
+        B3["Device Orchestrator"]
+        B4["Automation Engine<br/>(Hosted Service)"]
+        B5["AI Layer<br/>Embedding & Chat"]
+        B6["Streaming Service<br/>(FFmpeg Manager)"]
+        B7["Integration Adapters"]
+        B8["Persistence<br/>(Repositories + UoW)"]
     end
 
     subgraph External
-        E1[(Fibaro)]
-        E2[(Home Assistant)]
-        E3[(Tuya)]
-        E4[(IP Cameras RTSP)]
-        E5[(Auth Store / DB)]
+        E1[("Fibaro")]
+        E2[("Home Assistant")]
+        E3[("Tuya")]
+        E4[("IP Cameras<br/>RTSP")]
+        E5[("Auth Store<br/>DB")]
     end
 
     A1 --> B1

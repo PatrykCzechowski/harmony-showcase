@@ -3,23 +3,23 @@
 ```mermaid
 flowchart LR
     subgraph Core
-        F1[App Shell / Layout]
-        F2[Routing Config]
-        F3[Auth Guard]
+        F1["App Shell<br/>Layout"]
+        F2["Routing Config"]
+        F3["Auth Guard"]
     end
     subgraph Features
-        D1[Dashboard Feature]
-        A1[AI Chat Feature]
-        R1[Rules Feature]
-        C1[Cameras Feature]
-        I1[Integrations Feature]
-        FIB[Fibaro Feature]
-        DEV[Devices Feature]
+        D1["Dashboard Feature"]
+        A1["AI Chat Feature"]
+        R1["Rules Feature"]
+        C1["Cameras Feature"]
+        I1["Integrations Feature"]
+        FIB["Fibaro Feature"]
+        DEV["Devices Feature"]
     end
     subgraph Shared
-        SH1[UI Primitives]
-        SH2[HTTP Interceptors]
-        SH3[State Helpers / Services]
+        SH1["UI Primitives"]
+        SH2["HTTP Interceptors"]
+        SH3["State Helpers<br/>Services"]
     end
 
     F1 --> F2 --> F3
