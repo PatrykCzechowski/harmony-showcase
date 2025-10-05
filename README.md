@@ -220,7 +220,7 @@ Curated functional snapshots (all test / demo data). Each caption states purpose
 |--------|-------|---------|
 | Rules List | ![Rules list](./images/rules-list.png) | Global overview & activation state. |
 | Rule Create (Empty) | ![Rule create dialog empty](./images/rule-create-dialog.png) | Structured trigger/action composition. |
-| Rule Create (Filled) | ![Rule create dialog filled](./images/rule-create-dialog-filled.png) | Completed configuration prior to save. |
+| Rule Create (Form) | ![Rule create dialog form](./images/rule-create-dialog-filled.png) | Rule configuration interface layout. |
 | Automation History | ![Automation execution history](./images/automation-history-list.png) | Execution log for explainability. |
 
 ### 10.7 Timeline & Diagnostics
