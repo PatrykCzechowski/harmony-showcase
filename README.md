@@ -305,6 +305,7 @@ Leadership / Ownership aspects:
 | Notifications | Push (PWA) critical event alerts | Real-time awareness |
 | Observability | OpenTelemetry tracing | Deep performance & dependency insight |
 | Streaming | Adaptive segment length | Resilience on constrained networks |
+| Hardware | Arduino-based Harmony devices | Native ecosystem sensors & actuators |
 | Extensibility | Integration marketplace scaffold | Community-driven growth |
 
 ## 14. Portfolio Fit / Why It Matters
@@ -456,6 +457,7 @@ Key decisions:
 - AI-driven rule suggestions & refinement loops.
 - Energy analytics (time-series & widgets).
 - Push notifications (PWA) for critical events.
+- Arduino-based Harmony devices (native ecosystem sensors).
 - E2E test harness (Playwright + synthetic mocks).
 - Community integration marketplace.
 
