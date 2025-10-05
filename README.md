@@ -239,6 +239,9 @@ Live functionality demonstrations showing key workflows:
 | AI Interaction | ![Harmony AI Chat](./gifs/harmony-ai-interaction.gif) | Natural language queries and device control through conversational AI interface |
 | Camera Live Stream | ![Camera Live View](./gifs/camera-live-view.gif) | Low-latency camera stream activation and real-time video feed |
 | Automation Creation | ![Rule Creation Flow](./gifs/automation-rule-creation.gif) | Complete workflow for creating and configuring automation rules |
+| Garage Gate Control (UI) | ![Gate Control UI](./gifs/gate-control-ui.gif) | Toggling Fibaro-controlled garage gate via unified device control panel |
+| Garage Gate Opening (IRL) | ![Gate Opening Real World](./gifs/gate-opening-irl.gif) | Physical garage gate responding to remote command (end-to-end device actuation) |
+| Fibaro RGBW Strip (IRL) | ![Fibaro RGBW Real World](./gifs/fibaro-rgbw-irl.gif) | Real-world RGBW LED strip color & brightness change reflecting UI command |
 
 ## 11. Code Highlights
 Concise, value‑focused fragments (full context in respective snippet directories):
@@ -274,6 +277,9 @@ Additional evidence snippets: TOTP encryption, rate limiter, intent normalizatio
 | AI Interaction Demo | `gifs/harmony-ai-interaction.gif` | Conversational AI device control showcase |
 | Camera Streaming Demo | `gifs/camera-live-view.gif` | Low-latency live stream activation |
 | Automation Creation Demo | `gifs/automation-rule-creation.gif` | Complete rule creation workflow |
+| Garage Gate Control UI Demo | `gifs/gate-control-ui.gif` | Garage gate toggle through platform UI |
+| Garage Gate Opening IRL Demo | `gifs/gate-opening-irl.gif` | Physical actuation proof (garage gate) |
+| Fibaro RGBW IRL Demo | `gifs/fibaro-rgbw-irl.gif` | Real hardware LED strip color change |
 | Contrast | `CONTRAST.md` | Key differentiators vs typical OSS |
 
 ## 12. My Role & Engineering Decisions
